@@ -8,7 +8,7 @@
   LogNormal_Distribution.h - Library for 'duino
   https://github.com/newEndeavour/LogNormal_Distribution
 
-  LogNormal_Distribution implements a Log Normal Gaussian distribution. 
+  LogNormal_Distribution implements a Log Normal distribution. 
 
   Copyright (c) 2018-2019 Jerome Drouin  All rights reserved.
 
@@ -44,17 +44,12 @@
 
 
 //Normal Constant Parameters
-#define CONSTANT_aa 0.2316419
-#define CONSTANT_b1 1.330274429
-#define CONSTANT_b2 1.821255978
-#define CONSTANT_b3 1.781477937
-#define CONSTANT_b4 0.356563782
-#define CONSTANT_b5 0.31938153
+#define CONSTANT_e  2.718281828459
 #define CONSTANT_EpsStop 0.0000001
     
 //Number Pi
 #define CONSTANT_Pi 3.14159265358979
-#define CONSTANT_e  2.718281828459
+
 
 // library interface description
 class LogNormal_Distribution
